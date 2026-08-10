@@ -1,0 +1,27 @@
+# Virtual environments
+.venv/
+.venv312/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated outputs
+outputs/
+data/output/
+runs/
+
+# Model weights / exported engines
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
