@@ -3,7 +3,7 @@ from pathlib import Path
 from paddleocr import TextRecognition
 
 
-PLATES_DIR = Path("outputs/plates")
+PLATES_DIR = Path("outputs/day6_bestshots")
 
 # Сначала пробуем ту же recognition-модель,
 # которую PaddleOCR 3.7 уже использовал в полном pipeline.
