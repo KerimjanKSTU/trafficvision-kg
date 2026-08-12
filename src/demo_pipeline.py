@@ -1443,7 +1443,8 @@ def main() -> None:
     finally:
         cap.release()
         writer.release()
-        cv2.destroyAllWindows()
+        if args.show:
+            cv2.destroyAllWindows()
 
     saved_bestshots = save_best_candidates(
         best_candidates,
