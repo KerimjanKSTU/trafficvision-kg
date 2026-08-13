@@ -1,0 +1,5 @@
+path: /workspace/trafficvision-kg/data/calibration_plate_int8
+train: images/val
+val: images/val
+names:
+  0: License_Plate
