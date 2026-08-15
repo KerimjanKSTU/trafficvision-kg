@@ -25,3 +25,6 @@ runs/
 # OS
 .DS_Store
 Thumbs.db
+models/deepstream/*.engine
+models/deepstream/*.onnx
+outputs/day11/
