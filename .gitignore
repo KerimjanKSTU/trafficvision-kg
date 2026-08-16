@@ -28,3 +28,8 @@ Thumbs.db
 models/deepstream/*.engine
 models/deepstream/*.onnx
 outputs/day11/
+models/
+data/calibration_int8/
+data/calibration_plate_int8/
+*.onnx.data
+*.cache
